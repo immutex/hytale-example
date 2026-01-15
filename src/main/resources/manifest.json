@@ -1,0 +1,6 @@
+{
+  "Group": "com.immutex",
+  "Name": "HelloWorld",
+  "Version": "1.0.0",
+  "Main": "com.immutex.HelloWorld.HelloWorld"
+}
