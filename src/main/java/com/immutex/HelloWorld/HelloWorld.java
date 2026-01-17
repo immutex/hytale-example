@@ -15,9 +15,7 @@ public class HelloWorld extends JavaPlugin {
         super.setup();
 
         this.getCommandRegistry().registerCommand(
-                new HelloCommand("helloworld",
-                        "A command that sends a message to the sender",
-                        false)
+                new HelloCommand()
         );
     }
 }

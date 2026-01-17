@@ -13,8 +13,8 @@ import org.checkerframework.checker.nullness.compatqual.NonNullDecl;
 
 public class HelloCommand extends AbstractPlayerCommand {
 
-    public HelloCommand(@NonNullDecl String name, @NonNullDecl String description, boolean requiresConfirmation) {
-        super(name, description, requiresConfirmation);
+    public HelloCommand() {
+        super("helloworld", "A command that sends a message to the sender", false);
     }
 
     @Override
